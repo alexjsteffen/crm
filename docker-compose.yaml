@@ -9,7 +9,7 @@ services:
     expose:
       - "80"
     ports:
-      - "80:80"
+      - "8087:80"
 
   briana-server:
     container_name: briana-server
